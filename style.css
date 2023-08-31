@@ -1,0 +1,375 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+}
+header
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    height: 100px;
+    position: sticky;
+    top: 1px;
+    margin-bottom: 180px;
+}
+nav .ul 
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+.logo
+{
+    width: 200px;
+    margin-top: -15px;
+    font-weight: bolder;
+    height: 100px;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+  padding: 40px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.a
+{
+    font-weight: lighter;
+}
+:hover
+{
+    color: black;
+}
+
+.li
+{
+    border-radius: 10px ;
+    background-color: black;
+    margin-left: 20px;
+    padding: 10px 0px 10px 0px;   
+}
+.li:hover
+{
+    background-color: white;
+    border: 1px solid black;
+}
+h1
+{
+    
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    display: inline;
+    
+    animation:  3s linear 3s infinite running slidein;
+}
+@keyframes slidein {
+    to   { right: 0; transition: 7s; }
+
+  }
+.section1
+{
+    background-image: url("goal_cristiano-ronaldo-lionel-messi-portugal-argentina-2014_gq8x3l9bolg91kf2p9n7lvz5c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -140px;
+    border-radius: 70px;
+      
+}
+h2
+{
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h3
+{
+    margin-top: -40px;
+    
+}
+.section2
+{
+    display: grid;
+    grid-template-rows: 2fr 2fr ;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-areas: 
+    "div1 div2 div3"
+    "div4 div5 div6";
+    gap: 1rem;
+   margin-top: -100px;
+    border-bottom: 1px dashed rgb(201, 193, 193);
+    border-top: 1px dashed rgb(201, 193, 193);
+    padding: 30px 0px 30px 0px;
+    
+}
+.div1
+{
+    background-image: url("FFf-DJWVkAUsdkT.jpg");
+    grid-area: div1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.div2
+{
+    background-image: url("2697193-55766170-2560-1440.jpg");
+    grid-area: div2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px; 
+}
+.div3
+{
+    grid-area: div3;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    height: 40vh;
+    
+}
+.div4
+{
+    grid-area: div4;
+    border-radius: 4px;
+    background: whitesmoke;
+    height: 40vh;
+}
+.div5
+{
+   
+    background-image: url("99ae259979b8d121dcfa26838a56bfc7.jpg");
+    grid-area: div5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.div6
+{
+    background-image: url("téléchargé (10).jpg");
+    grid-area: div6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;   
+}
+.p1
+{
+    text-align: start;
+    font-style: oblique;
+    font-size: 11px;
+    text-align: center;
+}
+.ul1
+{
+    font-size: 13px;
+    text-align: start;
+    font-weight: bolder;
+    color: red;
+}
+.h3
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.section3
+{
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed rgb(201, 193, 193);
+    padding-bottom: 20px;
+}
+.div7
+{
+background-image: url("palmares-lionel-messi-296x300.jpg");
+height: 80vh;
+width: 80vh;
+background-repeat: no-repeat;
+background-size: cover;
+color: red;
+font-style: oblique;
+font-size: 11px;
+text-align: center;
+border-radius: 4px;
+}
+.div8
+{
+    background-image: url("palmares-Cristiano-Ronaldo-298x300.jpg");
+    height: 80vh;
+    width: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-style: oblique;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 4px;
+
+}
+.prev
+{
+    border: 1px solid black;
+    padding: 7px;
+    width: 10px;
+    height: 10px;
+    
+}
+.p2
+{
+    padding: 120px 20px 0px 20px;
+
+}
+.section4
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+.div9
+{
+    width: 80vh;
+    margin-top: -90px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+
+    
+}
+.div10
+{
+    width: 80vh;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-top: -94px;
+}
+
+.img1
+{
+    width: 80vh;
+    height: 40vh;
+    position: relative;
+}
+.ul2
+{
+    font-size: 11px;
+    text-align: start;
+    font-weight: bolder;
+    color: blue;
+}  
+.ul3
+{
+    font-size: 11px;
+    text-align: start;
+    font-weight: bolder;
+    color: rgb(236, 140, 156);
+} 
+.p3
+{
+    font-size: 11px;
+    text-align: center;
+}
+.div11
+{
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 100px;
+    padding-top: 70px;
+}
+.div12
+{
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    height: 20vh;
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+footer
+{
+    margin-top: -120px;
+
+}
+.icone 
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start; 
+    flex-direction: row;  
+    padding-bottom: 20px;   
+}
+.icone a
+{
+    font-size: 20px ;
+    color: blue;
+    
+}
+i
+{
+  border-radius: 25%/25%; 
+  background-color: white;
+  padding: 10px;
+}
+span
+{
+    margin: 50px 0px 0px -15px ;
+    color: white;
+}
+.p4
+{
+   
+  
+    margin-right: 125px;
+    color: blue;
+    padding-top: 20px;
+
+}
+.f2
+{
+    padding: 10px;
+    border-radius: 10px ;
+}
+.k
+{
+    margin: 20px 0px 40px  ;
+    text-align: center;
+}
+.h4
+{
+    margin: 20px 0px 100px 0px ;
+    text-align: center;
+}
+.f
+{
+    padding: 10px;
+    
+}
+.o 
+{
+    width: 15px;
+    border-radius: 5px;    
+}
+.h7
+{
+    margin: -50px 0px 100px 0px ; 
+    text-align: center; 
+
+}
+
+
